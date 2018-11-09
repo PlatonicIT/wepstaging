@@ -1,0 +1,418 @@
+<!DOCTYPE html>
+<html lang="en" class="no-js" dir="ltr">
+<head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <title>ARZ</title>
+    <meta name="description" content="" />
+    <meta name="keywords" content="" />
+    <meta name="author" content="ARZ" />
+    <link rel="shortcut icon" href="favicon.ico">
+    <link rel="stylesheet" href="css/bootstrap.min.css" />
+    <link rel="stylesheet" href="css/font-awesome.css" />
+    <link href="https://fonts.googleapis.com/css?family=Roboto+Condensed:300,400,700" rel="stylesheet">
+    <link rel="stylesheet" type="text/css" href="css/progressively.min.css" />
+    <link rel="stylesheet" type="text/css" href="css/owl.carousel.css" />
+    <link rel="stylesheet" type="text/css" href="css/owl.theme.default.css" />
+    <link rel="stylesheet" type="text/css" href="css/animate.css" />
+    <link rel="stylesheet" type="text/css" href="css/style.css" />
+</head>
+
+<body>
+<header>
+  <nav class="navbar navbar-inverse">
+    <div class="container-fluid">
+      <div class="navbar-header">
+        <button type="button" class="navbar-toggle" data-toggle="collapse" data-target="#myNavbar"> <span class="icon-bar"></span> <span class="icon-bar"></span> <span class="icon-bar"></span> </button>
+        <a class="navbar-brand" href="#"><img src="image/logo.png"></a> </div>
+      <div class="collapse navbar-collapse" id="myNavbar">
+        <ul class="nav navbar-nav navbar-right">
+          <li class="active"><a href="index.html">Home</a></li>
+          <li><a href="order.php#order">ORDER ONLINE</a></li>
+          <li><a href="index.html">CONTACT</a></li>
+        </ul>
+      </div>
+    </div>
+  </nav>
+</header>
+<div class="slider">
+<div class="owl-carousel owl-theme" id="slider">
+  <div class="item">
+    <figure class="progressive"> <img class="progressive__img progressive--not-loaded img-responsive" data-progressive="image/Hero_img.jpg" src="image/Hero_img.jpg"> </figure>
+  </div>
+  <div class="item">
+    <figure class="progressive"> <img class="progressive__img progressive--not-loaded img-responsive" data-progressive="image/Hero_img.jpg" src="image/Hero_img.jpg"> </figure>
+  </div>
+  <div class="item">
+    <figure class="progressive"> <img class="progressive__img progressive--not-loaded img-responsive" data-progressive="image/Hero_img.jpg" src="image/Hero_img.jpg"> </figure>
+  </div>
+  <div class="item">
+    <figure class="progressive"> <img class="progressive__img progressive--not-loaded img-responsive" data-progressive="image/Hero_img.jpg" src="image/Hero_img.jpg"> </figure>
+  </div>
+  <div class="item">
+    <figure class="progressive"> <img class="progressive__img progressive--not-loaded img-responsive" data-progressive="image/Hero_img.jpg" src="image/Hero_img.jpg"> </figure>
+  </div>
+</div>
+
+<style>
+	.responsive-menu-icon{
+		display:none;
+	}
+
+	.nav_white_label_area{
+		background:#b2a06d;
+		position: relative;
+		z-index: 9999999;
+		bottom: 156px;
+	}
+	.nav_white_label {
+		background: #b2a06d;
+		margin: 0 auto;
+		height: 50px;
+		width: 83%;
+		padding: 0;
+	}
+	.nav_white_label li {
+		position: relative;
+		list-style: none;
+		float: left;
+	}
+	
+	.nav_white_label ul li a:hover>{
+		color:#b2a06d !important;
+	}
+
+	.nav_white_label li a {
+		text-decoration: none;
+		line-height: 49px;
+		display: block;
+		padding: 0 15px;
+		color: #fff;
+	}
+	.nav_white_label li li a {
+		line-height: 38px;
+		font-size: 14px;
+		color: #fff;
+	}
+	.nav_white_label li:hover ul {
+		display: block;
+	}
+	.nav_white_label li:hover {
+		background: #e6e6e6;
+	}
+	.nav_white_label li ul {
+		background: #ae9a64;
+		position: absolute;
+		display: none; 
+		width: 200px;
+		padding: 0;
+		margin: 0;
+	}
+
+	.nav_white_label li li {
+		position:relative;
+		float: none;
+	}
+
+	.nav_white_label li li:hover {
+		background: #e6e6e6;
+	}
+
+	.nav_white_label li:hover ul li a{
+		color:#fff
+	}
+
+	.nav_white_label li:hover a, .nav_white_label li li:hover a{
+		color:#ae9a64;
+	}
+
+	.nav_white_label li ul ul{
+		display:none !important; 
+		border:#fff solid 1px;
+		position:absolute;
+		right:200px;
+		top:2px;
+	}
+
+	.nav_white_label li ul li a{
+		color:#fff !important;
+	}
+
+	.nav_white_label li ul li:hover ul{
+		display:block !important; 
+	}
+	
+	
+	
+	@media only screen and (max-width: 979px) {
+		.responsive-menu-icon{
+			display:block;
+		}
+
+		.nav_white_label_area{
+			bottom:107px;
+			height:45px;
+		}
+
+		.nav_white_label{
+			z-index:99999999999999;
+			background:#b2a06d;
+			position:absolute;
+			font-size:13px;
+			display:none;
+			width:160px;
+			height:auto;
+			margin:0;
+			top:44;
+		}
+		
+		.nav_white_label li a{
+			line-height:30px;
+			padding:0 10px;
+		}
+
+		.nav_white_label li {
+			border-bottom:#fff solid 1px;
+			border-left:#fff solid 1px;
+			float:none;
+		}
+
+		.nav_white_label li ul{
+			position:relative;
+			display:none;
+			z-index:9999;
+		}
+
+		.nav_white_label li:hover ul{
+			display: block !important;
+			position: absolute;
+			left: 159px;
+			top: 47px;
+			border:0;
+		}
+
+		.responsive-menu-icon{
+			display:block;
+			width:100%;
+			color:#fff;
+		}
+
+		.responsive-menu-icon img{
+			margin:10px;
+			width:25px;
+		}
+
+		.more-menu{
+			/*	display:none; */
+		}
+
+		.nav_white_label li.more-menu:hover ul{
+			width:160px;
+			top:auto;
+			left:0;
+		}
+		
+		.nav_white_label li.more-menu ul li{
+			border-left:0
+		}
+		
+		.nav_white_label li.more-menu ul li ul li{
+			border-left:#fff solid 1px;
+		}
+		
+		 .nav_white_label li.more-menu:hover ul li ul{
+			display:none !important;
+			position: absolute;
+			left: 160px;
+			top: 47px;
+		}
+		.nav_white_label li.more-menu ul li:hover ul{
+			display: block !important;
+		}
+	}
+</style>
+
+
+<div class='nav_white_label_area'><span onClick='showResponsiveMenu()' class='responsive-menu-icon'><img src='image/menu.png' width='25'>CATEGORIES</span><ul class='nav_white_label'><li><a href='order.php?c=5144#order'>SMALLGOODS</a><ul class="child"><li><a href='order.php?c=5145#order'>BACON SLICED</a></li><li><a href='order.php?c=5146#order'>BACON DICED AND SHREDDED</a></li><li><a href='order.php?c=5147#order'>HAM</a></li><li><a href='order.php?c=5148#order'>SALAMI</a></li><li><a href='order.php?c=5149#order'>CURED MEAT</a></li><li><a href='order.php?c=5150#order'>PULLED PRODUCT</a></li><li><a href='order.php?c=5151#order'>FRANKFURTS AND HOTDOGS</a></li><li><a href='order.php?c=5152#order'>SAUSAGE</a></li><li><a href='order.php?c=5154#order'>MISCELLANIOUSE</a></li><li><a href='order.php?c=5155#order'>SLICED PRODUCT</a></li><li><a href='order.php?c=5161#order'>CHICKEN</a></li><li><a href='order.php?c=5163#order'>CHICKEN PRE-COOKED</a></li><li><a href='order.php?c=5164#order'>TURKEY FROZEN</a></li><li><a href='order.php?c=5165#order'>TURKEY PRECOOKED</a></li></ul></li><li><a href='order.php?c=5156#order'>SCHNITZELS AND BURGER PATTIES</a><ul class="child"><li><a href='order.php?c=5157#order'>BURGER PATTIES</a></li><li><a href='order.php?c=5162#order'>CHICKEN SCHNITZELS</a></li></ul></li><li><a href='order.php?c=5158#order'>MEAT</a><ul class="child"><li><a href='order.php?c=5159#order'>BEEF FRESH</a></li><li><a href='order.php?c=5160#order'>BEEF PRECOOKED</a></li><li><a href='order.php?c=5166#order'>LAMB FRESH</a></li><li><a href='order.php?c=5167#order'>LAMB PRECOOKED</a></li><li><a href='order.php?c=5168#order'>PORK FRESH</a></li></ul></li><li><a href='order.php?c=5169#order'>ANTIPASTO</a><ul class="child"><li><a href='order.php?c=5170#order'>MISCELLANIOUS</a></li><li><a href='order.php?c=5171#order'>ARTICHOKE</a></li><li><a href='order.php?c=5172#order'>EGGPLANT</a></li><li><a href='order.php?c=5173#order'>OLIVE</a></li><li><a href='order.php?c=5174#order'>PESTO</a></li><li><a href='order.php?c=5175#order'>PEPPERS</a></li><li><a href='order.php?c=5176#order'>SEMI AND SUN DRIED TOMATO</a></li><li><a href='order.php?c=5177#order'>PICKLED PRODUCT</a></li><li><a href='order.php?c=5198#order'>DIPS</a></li></ul></li><li class='more-menu'><a href='javascript:void(0)'>MORE</a><ul><li><a href='order.php?c=5178#order'>CHEESE, EGGS AND DAIRY</a><ul class="child"><li><a href='order.php?c=5179#order'>CHEESE</a></li><li><a href='order.php?c=5188#order'>EGGS</a></li><li><a href='order.php?c=5189#order'>BUTTER</a></li><li><a href='order.php?c=5190#order'>CREAM</a></li><li><a href='order.php?c=5191#order'>SOUR CREAM</a></li><li><a href='order.php?c=5194#order'>YOGURT</a></li><li><a href='order.php?c=5195#order'>SOY MILK</a></li><li><a href='order.php?c=5196#order'>MILK UHT</a></li></ul></li><li><a href='order.php?c=5192#order'>CONFECTIONARY AND DESERT</a><ul class="child"><li><a href='order.php?c=5193#order'>ICE CREAM</a></li><li><a href='order.php?c=5257#order'>TOPPINGS AND FLAVOURINGS</a></li><li><a href='order.php?c=5260#order'>SYRUP</a></li><li><a href='order.php?c=5261#order'>CHOCOLATE</a></li><li><a href='order.php?c=5262#order'>CAKE</a></li><li><a href='order.php?c=5263#order'>CONFECTIONARY AND DESERT</a></li><li><a href='order.php?c=5264#order'>CHIPS DRY</a></li></ul></li><li><a href='order.php?c=5199#order'>OIL</a><ul class="child"><li><a href='order.php?c=5200#order'>EDIBLE AND FRYING</a></li><li><a href='order.php?c=5201#order'>FRYING COMPONDS</a></li></ul></li><li><a href='order.php?c=5202#order'>RICE</a><li><a href='order.php?c=5203#order'>PASTA AND NOODLES</a><ul class="child"><li><a href='order.php?c=5204#order'>PASTA DRY</a></li><li><a href='order.php?c=5205#order'>LASAGNA</a></li><li><a href='order.php?c=5206#order'>PASTA FROZEN</a></li><li><a href='order.php?c=5207#order'>NOODLES</a></li><li><a href='order.php?c=5208#order'>GNOCCI</a></li></ul></li><li><a href='order.php?c=5209#order'>VEGETABLES</a><ul class="child"><li><a href='order.php?c=5210#order'>TIN VEGETABLES</a></li><li><a href='order.php?c=5213#order'>TIN TOMATO</a></li><li><a href='order.php?c=5271#order'>VEGETABLE FROZEN</a></li></ul></li><li><a href='order.php?c=5211#order'>SEAFOOD</a><ul class="child"><li><a href='order.php?c=5212#order'>TIN SEEFOOD</a></li><li><a href='order.php?c=5272#order'>FROZEN - SEAFOOD</a></li></ul></li><li><a href='order.php?c=5214#order'>DRYGOODS</a><ul class="child"><li><a href='order.php?c=5215#order'>SAUCE</a></li><li><a href='order.php?c=5220#order'>VINAGER</a></li><li><a href='order.php?c=5221#order'>DRESSINGS</a></li><li><a href='order.php?c=5222#order'>DRESSING PORTIONS</a></li><li><a href='order.php?c=5223#order'>PASTE</a></li><li><a href='order.php?c=5224#order'>MISCELLANIOUSE</a></li><li><a href='order.php?c=5227#order'>SPREADS</a></li><li><a href='order.php?c=5231#order'>FLOUR AND PRE MIXED PRODUCTS</a></li><li><a href='order.php?c=5233#order'>FLOUR AND PRE-MIXED PRODUCTS</a></li><li><a href='order.php?c=5235#order'>SUGAR</a></li><li><a href='order.php?c=5239#order'>BAKING PRODUCTS</a></li><li><a href='order.php?c=5243#order'>GRAVYS AND STOCKS</a></li><li><a href='order.php?c=5250#order'>CEREAL</a></li><li><a href='order.php?c=5277#order'>SOUP</a></li></ul></li><li><a href='order.php?c=5236#order'>BREAD</a><ul class="child"><li><a href='order.php?c=5237#order'>BREAD CRUMBS</a></li><li><a href='order.php?c=5238#order'>BREAD PRODUCTS</a></li></ul></li><li><a href='order.php?c=5240#order'>HERBS AND SPICES</a><ul class="child"><li><a href='order.php?c=5241#order'>DRY</a></li><li><a href='order.php?c=5242#order'>HERBS FRIDGE (MINCED OR CRUSHED)</a></li></ul></li><li><a href='order.php?c=5244#order'>NUTS, SEEDS AND GRAINS</a><ul class="child"><li><a href='order.php?c=5245#order'>NUTS AND SEEDS</a></li><li><a href='order.php?c=5246#order'>GRAINS</a></li></ul></li><li><a href='order.php?c=5247#order'>BEANS</a><ul class="child"><li><a href='order.php?c=5248#order'>BEANS DRY</a></li><li><a href='order.php?c=5249#order'>BEANS TIN</a></li></ul></li><li><a href='order.php?c=5251#order'>BERRIES AND FRUIT</a><ul class="child"><li><a href='order.php?c=5252#order'>DRY FRUIT</a></li><li><a href='order.php?c=5253#order'>TIN FRUIT</a></li><li><a href='order.php?c=5273#order'>BERRY AND FRUIT FROZEN</a></li></ul></li><li><a href='order.php?c=5254#order'>DRINKS, CORDIAL AND JUICE</a><ul class="child"><li><a href='order.php?c=5255#order'>JUICE</a></li><li><a href='order.php?c=5256#order'>CORDIAL</a></li><li><a href='order.php?c=5278#order'>WATER AND DRINKS</a></li></ul></li><li><a href='order.php?c=5258#order'>TEATEA, COFFEE AND DRINKING CHOCOLATE</a><ul class="child"><li><a href='order.php?c=5259#order'>COFFEE SYRUP</a></li><li><a href='order.php?c=5265#order'>TEA, COFFEE AND HOT DRINK</a></li></ul></li><li><a href='order.php?c=5266#order'>POTATO</a><ul class="child"><li><a href='order.php?c=5267#order'>FROZEN CHIPS - POTATO FROZEN CHIPS</a></li><li><a href='order.php?c=5268#order'>POTATO CAKE, HASH BROWN AND WEDGES - POTATO FROZEN MISCELLANIOUSE</a></li><li><a href='order.php?c=5269#order'>POTATO DRY MISCELLANIOSE</a></li></ul></li><li><a href='order.php?c=5270#order'>DIM SIMS</a><li><a href='order.php?c=5274#order'>PASTRY</a><li><a href='order.php?c=5275#order'>FINGER FOOD</a><li><a href='order.php?c=5276#order'>FROZEN MISCELLANIOUSE</a><li><a href='order.php?c=5279#order'>PACKAGING, KITCHEN AND CLEANING ACCESSORIES</a><ul class="child"><li><a href='order.php?c=5280#order'>CLING WRAP AND BAKING PAPER</a></li><li><a href='order.php?c=5281#order'>CUTTLERY</a></li><li><a href='order.php?c=5282#order'>CONTAINERS</a></li><li><a href='order.php?c=5289#order'>CUPS</a></li><li><a href='order.php?c=5293#order'>BIN LINERS AND PLASTIC BAGS</a></li><li><a href='order.php?c=5294#order'>PAPER BAGS</a></li><li><a href='order.php?c=5297#order'>PAPER SANDWICH WRAP</a></li><li><a href='order.php?c=5298#order'>PAPER NAPKINS</a></li><li><a href='order.php?c=5300#order'>PAPER MISCELLANIOUSE</a></li><li><a href='order.php?c=5301#order'>KITCHEN ACCESSORIES</a></li><li><a href='order.php?c=5303#order'>CLEANING AND CHEMICLES</a></li><ul></li></ul></li></ul></div>  <div class="slider-content">
+    <div class="container-fluid">
+      <div class="row">
+        <div class="col-sm-4">
+          <div class="box">
+            <h4>A great chef will see <br>
+              the quality</h4>
+            <p>The best chef expect quality product every time, we pride ourselves on delivering the best quality cuts the market has to offer.</p>
+            <img src="image/1.png"> </div>
+        </div>
+        <div class="col-sm-4">
+          <div class="box">
+            <h4>Front of house will reap <br>
+              the rewards</h4>
+            <p>The best chef expect quality product every time, we pride ourselves on delivering the best quality cuts the market has to offer.</p>
+            <img src="image/2.png"> </div>
+        </div>
+        <div class="col-sm-4">
+          <div class="box">
+            <h4>Improve your bottom <br>
+              line</h4>
+            <p>The best chef expect quality product every time, we pride ourselves on delivering the best quality cuts the market has to offer.</p>
+            <img src="image/3.png"> </div>
+        </div>
+      </div>
+    </div>
+  </div>
+</div>
+
+<div class="order-bg order">
+  <div class="img-mobile">
+    <figure class="progressive"> <img class="progressive__img progressive--not-loaded" data-progressive="image/mobile.png" src="image/mobile.png"> </figure>
+  </div>
+  <div class="order-app border-box">
+    <h2>Our online order app</h2>
+    <p>Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's standard dummy text ever since the 1500s, when an unknown printer took a galley of type and scrambled it to make a type specimen book.</p>
+    <ul class="list-inline">
+      <li>Get it on :</li>
+      <li> <a href="#"><img src="image/Playstore.png"></a> </li>
+      <li> <a href="#"><img src="image/AppStore.png"></a> </li>
+    </ul>
+  </div>
+</div>
+<div class="order-now order">
+  <div class="container-fluid">
+    <div class="row">
+      <div class="col-sm-8">
+        <div class="border-box">
+          <h2>We are available for <br>
+            order online</h2>
+          <p>Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's standard dummy text ever since.</p>
+          <button class="btn btn-default">Order now</button>
+        </div>
+      </div>
+    </div>
+  </div>
+  <div class="img-order">
+    <figure class="progressive"> <img class="progressive__img progressive--not-loaded" data-progressive="image/4.png" src="image/4.png"> </figure>
+  </div>
+</div>
+<div class="gallery">
+  <h2 class="text-uppercase text-center">Gallery</h2>
+  <div class="owl-carousel owl-theme mt-30" id="gallery">
+    <div class="item">
+      <figure class="progressive"> <img class="progressive__img progressive--not-loaded" data-progressive="image/5.png" src="image/5.png"> </figure>
+    </div>
+    <div class="item">
+      <figure class="progressive"> <img class="progressive__img progressive--not-loaded" data-progressive="image/5.png" src="image/5.png"> </figure>
+    </div>
+    <div class="item">
+      <figure class="progressive"> <img class="progressive__img progressive--not-loaded" data-progressive="image/5.png" src="image/5.png"> </figure>
+    </div>
+    <div class="item">
+      <figure class="progressive"> <img class="progressive__img progressive--not-loaded" data-progressive="image/5.png" src="image/5.png"> </figure>
+    </div>
+  </div>
+</div>
+<div class="subscribe">
+  <div class="container">
+    <h2 class="text-uppercase text-center">JOIN OUR MAILING LIST</h2>
+    <form>
+      <div class="input-group">
+        <input type="text" class="form-control" placeholder="Email address">
+        <div class="input-group-btn">
+          <button class="btn btn-default" type="submit"> Subscribe now </button>
+        </div>
+      </div>
+    </form>
+  </div>
+</div>
+<div class="contact">
+  <div class="container-fluid">
+    <div class="row">
+      <div class="col-sm-12">
+        <h2 class="text-uppercase text-center">Contact</h2>
+      </div>
+      <div class="col-sm-7">
+        <form name="sentMessage" id="contactForm" novalidate>
+          <div class="row">
+            <div class="col-sm-6 pd-5 col">
+              <div class="form-group">
+                <input type="text" class="form-control" placeholder="Name" id="name" required>
+                <p class="help-block text-danger"></p>
+              </div>
+              <div class="form-group">
+                <input type="email" class="form-control" placeholder="Email" id="email" required>
+                <p class="help-block text-danger"></p>
+              </div>
+              <div class="form-group">
+                <input type="tel" class="form-control" placeholder="Phone" id="phone" required>
+                <p class="help-block text-danger"></p>
+              </div>
+            </div>
+            <div class="col-sm-6 pd-5 col">
+              <div class="form-group">
+                <textarea class="form-control" placeholder="Your Message *" id="message" required>Message</textarea>
+                <p class="help-block text-danger"></p>
+              </div>
+            </div>
+            <div class="clearfix"></div>
+            <div class="col-sm-12 pd-5 col">
+              <button type="submit" class="btn btn-default w-100">Submit</button>
+            </div>
+          </div>
+        </form>
+      </div>
+      <div class="col-sm-5">
+        <div id="map" style="width:100%;height:369px;"></div>
+      </div>
+    </div>
+  </div>
+</div>
+<footer>
+  <p class="text-center">&copy; 2017 by ARZ Food Service</p>
+</footer>
+<script src="https://cdnjs.cloudflare.com/ajax/libs/jquery/3.2.1/jquery.min.js"></script> 
+<script type="text/javascript" src="js/bootstrap.min.js"></script> 
+<script type="text/javascript" src="js/owl.carousel.min.js"></script> 
+<script type="text/javascript" src="js/progressively.min.js"></script> 
+<script>
+        progressively.init({
+            onLoadComplete: function() {
+                console.log('All images loaded!');
+            }
+        });
+
+    </script> 
+<script type="text/javascript" src="js/comman.js"></script> 
+<script>
+        $('#slider').owlCarousel({
+            loop: true,
+            nav: false,
+            items: 1
+        })
+        $('#gallery').owlCarousel({
+            loop: true,
+            nav: true,
+            navText: ["<img src='image/left-arrow.png'>", "<img src='image/next-arrow.png'>"],
+            dots: false,
+            items: 1
+        })
+
+        function myMap() {
+            var mapCanvas = document.getElementById("map");
+            var mapOptions = {
+                center: new google.maps.LatLng(51.5, -0.2),
+                zoom: 10
+            };
+            var map = new google.maps.Map(mapCanvas, mapOptions);
+        }
+
+		function showResponsiveMenu(){
+			if($(".nav_white_label").css("display")=='block'){
+				$(".nav_white_label").hide();
+			}else{
+				$(".nav_white_label").show();
+			}
+		}
+
+</script>
+<script src="https://maps.googleapis.com/maps/api/js?key=AIzaSyDmF5zhGSWQDIQuS4MUoDEVDK6_xFfflTw&callback=myMap"></script>
+</body>
+</html>
