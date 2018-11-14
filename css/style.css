@@ -196,12 +196,11 @@ header {
     font-family: 'CamptonSemiBold';
     font-size: 16px;
     color: #ffffff;
-    position: absolute;
+    position: relative;
     left: 0;
     right: 0;
     width: 100%;
     z-index: 99;
-    padding-top: 10px;
 }
 
 header .navbar-inverse .navbar-nav > .active > a,
@@ -333,11 +332,11 @@ header .navbar-inverse {
     background-size: 50%;
 }
 
-.slider-content .box img {
+/* .slider-content .box img {
     position: absolute;
     right: -10px;
     top: 0;
-}
+} */
 
 .slider-content .box p {
     line-height: 25px;
@@ -550,7 +549,7 @@ h2 {
 
 .subscribe .btn-default {
     margin-top: 0;
-    margin-bottom: :0;
+    margin-bottom: 0;
 }
 
 .subscribe .form-control {
