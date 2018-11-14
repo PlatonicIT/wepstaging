@@ -47,6 +47,10 @@ img {
     color:#b2a06d !important;
 }
 
+.nav_white_label li ul li {
+    display: block;
+}
+
 .nav_white_label li a {
     text-decoration: none;
     line-height: 49px;
@@ -345,6 +349,11 @@ header.homepage {
 
 .button.primary {
     background: #4878BA;
+}
+
+.button.lg-btn {
+    padding: 12px 30px;
+    font-size: 18px;
 }
 
 .section-padding {
