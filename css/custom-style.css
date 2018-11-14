@@ -1,3 +1,13 @@
+ul {
+    margin: 0;
+    padding: 0;
+    list-style: none;
+}
+
+img {
+    max-width: 100%;
+}
+
 .responsive-menu-icon{
     display:none;
 }
@@ -19,11 +29,18 @@
     height: 50px;
     width: 83%;
     padding: 0;
+    text-align: center;
 }
+
+.nav_white_label ul {
+    text-align: left;
+}
+
 .nav_white_label li {
     position: relative;
     list-style: none;
-    float: left;
+    float: none;
+    display: inline-block;
 }
 
 .nav_white_label ul li a:hover>{
@@ -34,7 +51,7 @@
     text-decoration: none;
     line-height: 49px;
     display: block;
-    padding: 0 15px;
+    padding: 0 14px;
     color: #fff;
 }
 .nav_white_label li li a {
@@ -269,7 +286,7 @@ header.homepage {
 }
 
 .navbar:after{
-    background-color:#000;
+    background-color:#1d2929;
     opacity:0.0;
     z-index: -1;
     width: 100%;
@@ -282,3 +299,211 @@ header.homepage {
 .navbar.darker:after {
     opacity: 1;
 }
+
+.hero-wrap {
+    height: 100vh;
+    position: relative;
+    color: #fff;
+    background-color: #ddd;
+    background-position: center center;
+    background-size: cover;
+    background-repeat: no-repeat;
+    font-size: 125%;
+    display: flex;
+    align-items: center;
+}
+
+.hero-wrap p {
+    color: inherit;
+    font-size: inherit;
+    margin-bottom: 30px;
+}
+
+.overlay {
+    position: absolute;
+    left: 0;
+    top: 0;
+    width: 100%;
+    height: 100%;
+    background-color: #000;
+    opacity: 0.5;
+}
+
+.button {
+    display: inline-block;
+    color: #fff!important;
+    text-transform: capitalize;
+    background: #d6cec3;
+    padding: 12px;
+    font-size: 12px;
+    font-weight: 400;
+}
+
+.button+.button {
+    margin-left: 10px;
+}
+
+.button.primary {
+    background: #4878BA;
+}
+
+.section-padding {
+    padding: 50px 0;
+}
+
+.single-service {
+    color: #fff;
+}
+
+.single-service h4 {
+    color: #fff;
+    font-size: 18px;
+    margin: 15px 0;
+}
+
+.cta-wrap {
+    background-size: cover;
+    background-color: #ddd;
+    position: relative;
+    color: #fff;
+}
+
+.cta-wrap .overlay {
+    opacity: 0.9;
+}
+
+.cta-wrap h2 {
+    margin-bottom: 20px;
+    color: inherit;
+}
+
+.cta-wrap p {
+    color: inherit;
+}
+
+.cta-wrap .button {
+    margin-top: 20px;
+}
+
+/**
+* ===================================
+* = Footer CSS
+* ===================================
+*/
+footer {
+    color: #fff;
+    background-color: #1d2929;
+}
+
+.copyright {
+    margin: 0;
+    opacity: 0.3;
+    font-size: 16px;
+}
+
+.footer-menu {
+    margin-top: 35px;
+    transition: max-height .3s cubic-bezier(0.4,0,.2,1);
+    -webkit-transition: max-height .3s cubic-bezier(0.4,0,.2,1);
+    -moz-transition: max-height .3s cubic-bezier(0.4,0,.2,1);
+    -ms-transition: max-height .3s cubic-bezier(0.4,0,.2,1);
+    -o-transition: max-height .3s cubic-bezier(0.4,0,.2,1);
+}
+
+.footer-menu.opened {
+    max-height: 100%;
+}
+
+h4+.footer-menu {
+    margin-top: 0;
+}
+
+.footer-wrap {
+    background-color: #1d2929;
+    color: #fff;
+    font-size: 14px;
+    border-bottom: 1px solid #333;
+}
+
+.footer-wrap p {
+    margin: 0 0 10px;
+}
+
+.footer-wrap a {
+    color: inherit;
+}
+
+.footer-wrap h4 {
+    font-size: 17px;
+    font-weight: 600;
+    color: #fff;
+    position: relative;
+    margin-bottom: 15px;
+    text-transform: capitalize;
+}
+
+.footer-wrap ul a {
+    text-transform: capitalize;
+    display: block;
+    transition: all 0.3s;
+    opacity: 0.3;
+    -webkit-transition: all 0.3s;
+    -moz-transition: all 0.3s;
+    -ms-transition: all 0.3s;
+    -o-transition: all 0.3s;
+    padding-top: 3px;
+    padding-bottom: 3px;
+}
+
+.footer-wrap ul a:hover {
+    opacity: 1;
+}
+
+.footer-menu li a:hover {
+    padding-left: 1px;
+}
+
+.footer-menu li {
+    display: block;
+}
+
+.contact-menu li {
+    display: block;
+}
+
+.contact-menu li a {
+    display: block;
+    position: relative;
+    padding-left: 25px;
+    word-break: break-all;
+}
+
+.contact-menu li i {
+    position: absolute;
+    left: 0;
+    top: 7px;
+}
+
+.contact-menu {
+    margin-bottom: 15px;
+}
+
+.app-link li {
+    display: inline-block;
+    margin: 10px;
+}
+
+.app-link li a {
+    opacity: 1;
+}
+
+.app-link li a:hover {
+    opacity: 0.7;
+}
+
+.app-link img {
+    max-width: 170px;
+}
+
+
+

@@ -12,7 +12,7 @@ jQuery(document).ready(function($){
     if($(".navbar").hasClass('animate')) {
         $(window).scroll(function () {
             var currentScrollTop = $(window).scrollTop();
-            $('body').append('<style>.navbar::after{opacity: ' + currentScrollTop/$('.slider').height() + ';}</style>');
+            $('body').append('<style>.navbar::after{opacity: ' + currentScrollTop/$('.slider, .hero-wrap').height() + ';}</style>');
             if($(".navbar").hasClass('sticky-menu')) {
                 var $height = $('.navbar').height();  
                 $('.order_online').css({                        
@@ -41,14 +41,14 @@ jQuery(document).ready(function($){
                 
               win.on("scroll", function() {
                 win.scrollTop() >= pos ? sticky.addClass("sticky-menu") : sticky.removeClass("sticky-menu"); 
-                if($(".navbar").hasClass('sticky-menu')) {
+                if($(".nav_white_label_area").hasClass('sticky-menu')) {
                     var $height = $('.navbar').height();  
                     $('.nav_white_label_area').css({                        
                         'margin-top': $height
                     });                          
                 } else {
                     $('.nav_white_label_area').css({                        
-                        'margin-top': '0'
+                        'margin-top': 0
                     });
                 }
               });     
