@@ -1,0 +1,226 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta content="width=device-width, initial-scale=1" name="viewport">
+    <title>ARZ</title>
+    <meta content="" name="description">
+    <meta content="" name="keywords">
+    <meta content="ARZ" name="author">
+    <link href="favicon.ico" rel="shortcut icon">
+    <link href="css/bootstrap.min.css" rel="stylesheet">
+    <link href="css/font-awesome.css" rel="stylesheet">
+    <link href="https://fonts.googleapis.com/css?family=Roboto+Condensed:300,400,700" rel="stylesheet">
+    <link href="css/progressively.min.css" rel="stylesheet" type="text/css">
+    <link href="css/owl.carousel.css" rel="stylesheet" type="text/css">
+    <link href="css/owl.theme.default.css" rel="stylesheet" type="text/css">
+    <link href="css/animate.css" rel="stylesheet" type="text/css">
+    <link href="css/style.css" rel="stylesheet" type="text/css">
+    <link href="css/custom-style.css" rel="stylesheet" type="text/css">
+</head>
+<body>    
+    <header style="height: auto;">
+        <nav class="navbar navbar-inverse is-sticky  darker">
+            <div class="container-fluid">
+                <div class="navbar-header">
+                    <button class="navbar-toggle" data-target="#myNavbar" data-toggle="collapse" type="button"><span class="icon-bar"></span> <span class="icon-bar"></span> <span class="icon-bar"></span></button> <a class="navbar-brand" href="#"><img src="image/logo.png"></a>
+                </div>
+                <div class="collapse navbar-collapse" id="myNavbar">
+                    <ul class="nav navbar-nav navbar-right">
+                        <li>
+                            <a href="index.html">Home</a>
+                        </li>
+                        <li>
+                            <a href="order.html#order">Product Catalog</a>
+                        </li>
+                        <li>
+                            <a href="arz-online.html">ARZ Online</a>
+                        </li>
+                        <li class="active">
+                            <a href="contact.html">CONTACT</a>
+                        </li>
+                    </ul>
+                </div>
+            </div>
+        </nav>
+    </header>
+    <div class="contact">
+        <div class="container-fluid">
+            <div class="row">
+                <div class="col-sm-12">
+                    <h2 class="text-uppercase text-center">Contact</h2>
+                </div>
+                <div class="col-sm-7">
+                    <form id="contactForm" action="send_form_email.php">
+                        <div class="row">
+                            <div class="col-sm-6 pd-5 col">
+                                <div class="form-group">
+                                    <input class="form-control" id="name" name="name" placeholder="Name" required="" type="text">
+                                    <p class="help-block text-danger"></p>
+                                </div>
+                                <div class="form-group">
+                                    <input class="form-control" id="email" name="email" placeholder="Email" required="" type="email">
+                                    <p class="help-block text-danger"></p>
+                                </div>
+                                <div class="form-group">
+                                    <input class="form-control" id="phone" name="phone" placeholder="Phone" required="" type="tel">
+                                    <p class="help-block text-danger"></p>
+                                </div>
+                            </div>
+                            <div class="col-sm-6 pd-5 col">
+                                <div class="form-group">
+                                    <textarea class="form-control" id="message" name="message" placeholder="Your Message *" required=""></textarea>
+                                    <p class="help-block text-danger"></p>
+                                </div>
+                            </div>
+                            <div class="clearfix"></div>
+                            <div class="col-sm-12 pd-5 col">
+                                <button class="btn btn-default w-100" type="submit">Submit</button>
+                            </div>
+                            <div class="col-sm-12">
+                                <p class="form-message mt-4 alert" style="display: none;"></p>                                 
+                            </div>
+                        </div>
+                    </form>
+                </div>
+                <div class="col-sm-5">
+                    <div id="map" style="width:100%;height:369px;"></div>
+                </div>
+            </div>
+        </div>
+    </div>
+
+    <section class="cta-wrap section-padding" style="background-image: url(image/5.png);">
+        <div class="overlay"></div>
+        <div class="container">
+            <div class="row text-center">
+                <div class="col-md-8 col-md-offset-2">
+                    <a href="#" class="button primary lg-btn">Call Now</a>
+                </div>
+            </div>
+        </div>
+    </section>
+
+	<!-- Footer Area -->
+	<section class="footer-wrap section-padding">
+		<div class="container">
+			<div class="row">
+                <div class="col-md-3 col-sm-4">
+					<h4 data-target="fMenu1">Features</h4>
+					<ul class="footer-menu" data-menu="fMenu1">
+						<li><a href="index.html">Home</a></li>
+						<li><a href="order.html#order">Product Catalog</a></li>
+						<li><a href="arz-online.html">ARZ Online</a></li>
+						<li><a href="index.html">CONTACT</a></li>
+					</ul>
+				</div>
+
+				<div class="col-md-2 col-sm-4">
+					<h4 data-target="fMenu3">Resources</h4>
+					<ul class="footer-menu" data-menu="fMenu3">
+						<li><a href="#">Supplier Success Stories</a></li>
+						<li><a href="#">Getting Started</a></li>
+						<li><a href="#">On Site Training</a></li>
+						<li><a href="#">Customer Stories</a></li>
+						<li><a href="#">FAQ</a></li>
+						<li><a href="#">Blog</a></li>
+					</ul>
+				</div>
+
+				<div class="col-md-2 col-sm-4">
+					<h4 data-target="fMenu4">Other Link</h4>
+					<ul class="footer-menu" data-menu="fMenu4">
+						<li><a href="#">Pricing</a></li>
+						<li><a href="#">Security</a></li>
+						<li><a href="#">Customer</a></li>
+						<li><a href="#">Brand</a></li>
+						<li><a href="#">Supplier</a></li>
+					</ul>
+				</div>
+
+				<div class="col-sm-2">
+					<h4 data-target="fMenu5" class="d-block d-md-none">Others</h4>
+					<ul class="footer-menu" data-menu="fMenu5">
+						<li><a href="#">Contact Us</a></li>
+						<li><a href="#">Support</a></li>
+						<li><a href="#">FAQ</a></li>
+						<li><a href="#">Blog</a></li>
+					</ul>
+				</div>
+
+				<div class="col-sm-3">
+					<h4>Get in touch</h4>
+					<p>Lorem ipsum dolor sit amet consectetur.</p>
+					<ul class="contact-menu">
+						<li><a href="#"><i class="fa fa-phone"></i>0434201204</a></li>
+						<li><a href="#"><i class="fa fa-envelope-o"></i>zookeepers@onezoo.com.au</a></li>
+					</ul>
+					<ul class="app-link">
+						<li><a href="#"><img src="image/Playstore.png" alt=""></a></li>
+						<li><a href="#"><img src="image/AppStore.png" alt=""></a></li>
+					</ul>
+				</div>
+			</div>
+		</div>
+	</section>
+	<!-- End of Footer Area -->
+
+    <footer>
+        <p class="text-center">&copy; <span id="date"></span>
+            <script>
+                var d = new Date();
+                var $date = d.getFullYear();
+                document.getElementById("date").innerHTML = $date;
+            </script>
+            by ARZ Food Service
+        </p>
+    </footer>
+    <script src="//cdnjs.cloudflare.com/ajax/libs/jquery/1.12.4/jquery.min.js"></script> 
+    <script src="js/bootstrap.min.js" type="text/javascript"></script> 
+    <script src="js/owl.carousel.min.js" type="text/javascript"></script> 
+    <script src="js/progressively.min.js" type="text/javascript"></script> 
+    <script>
+        progressively.init({
+            onLoadComplete: function() {
+                console.log('All images loaded!');
+            }
+        });
+    </script> 
+    <script src="js/send-mail.js" type="text/javascript"></script>
+    <script src="js/comman.js" type="text/javascript"></script> 
+    <script>
+        $('#slider').owlCarousel({
+            loop: true,
+            nav: false,
+            items: 1
+        })
+        $('#gallery').owlCarousel({
+            loop: true,
+            nav: true,
+            navText: ["<img src='image/left-arrow.png'>", "<img src='image/next-arrow.png'>"],
+            dots: false,
+            items: 1
+        })
+
+        function myMap() {
+            var mapCanvas = document.getElementById("map");
+            var mapOptions = {
+                center: new google.maps.LatLng(-37.7289906, 144.9454872),
+                zoom: 12
+            };
+            var map = new google.maps.Map(mapCanvas, mapOptions);
+        }
+
+        function showResponsiveMenu(){
+            if($(".nav_white_label").css("display")=='block'){
+                $(".nav_white_label").hide();
+            }else{
+                $(".nav_white_label").show();
+            }
+        }
+
+    </script> 
+    <script src="https://maps.googleapis.com/maps/api/js?key=AIzaSyDmF5zhGSWQDIQuS4MUoDEVDK6_xFfflTw&callback=myMap">
+    </script>
+</body>
+</html>
