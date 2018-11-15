@@ -219,8 +219,10 @@ img {
     z-index: 9;
 }
 
-.order-now {
-    overflow: hidden;
+.img-order {
+    top: 250px;
+    bottom: auto;
+    width: 50%;;
 }
 
 .slider-content .box {
@@ -516,3 +518,27 @@ h4+.footer-menu {
 
 
 
+@media (max-width: 991px) {
+    .img-order {
+        margin: 0;
+        width: 100%;
+        top: auto;
+    }
+    header .navbar-inverse .navbar-nav > li > a {
+        padding: 35px 15px;
+    }
+    .box-inner-img {
+        width: 90px;
+        height: 90px;
+    }
+}
+
+@media (max-width: 767px){
+    .slider .slider-content {
+        transform: translate(0)    ;
+        -webkit-transform: translate(0)    ;
+        -moz-transform: translate(0)    ;
+        -ms-transform: translate(0)    ;
+        -o-transform: translate(0)    ;
+}
+}
